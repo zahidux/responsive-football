@@ -46,13 +46,14 @@ header {
 /* player details */
 
 .players .player img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
 }
 
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
 }
 
 main {
@@ -68,15 +69,59 @@ main {
 .player {
     width: 330px;
     height: 459px;
+    box-shadow: 0 0 25px rgb(211, 210, 210);
+    padding: 15px;
 }
 
 .player h3 {
-    width: 300px;
-    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
     font-size: 28px;
 }
 
 .player p {
     font-weight: 400;
     color: #6C6C6C;
+}
+
+.player-img {
+    width: 100%;
+}
+
+.article-images img {
+    width: 100%;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    margin: 70px 25px 0 70px;
+}
+
+.article-images {
+    width: 50%;
+}
+
+.best-player {
+    width: 50%;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.best-player h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.best-player p {
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
