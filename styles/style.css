@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/* header section */
 .button {
     padding: 10px 24px;
     background-color: #E02C6D;
@@ -43,6 +44,7 @@ header {
     height: 438px;
 }
 
+/* header section */
 /* player details */
 
 .players .player img {
@@ -88,6 +90,36 @@ main {
     width: 100%;
 }
 
+/* player details */
+/* champion section */
+
+.champion-title {
+    text-align: center;
+}
+
+.champion-title h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.champion {
+    background-color: rgb(173, 173, 245);
+    padding: 40px 0;
+}
+
+.champion-title p {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.champion-team-images img {
+    width: 100%;
+}
+
+/* champion section */
+/* article section */
+
 .article-images img {
     width: 100%;
 }
@@ -118,10 +150,57 @@ main {
     color: #6C6C6C;
 }
 
+/* article section */
 /* footer section */
 
-footer {
+.footer_section {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
+
+.footer_logo {
+    margin-top: 151px;
+}
+
+.footer_logo img {
+    width: 483.87px;
+}
+
+.footer-icon {
+    padding: 20px 0;
+    display: flex;
+}
+
+.footer-icon a {
+    color: #969BAB;
+    font-size: 18px;
+    margin: 0 7px;
+    width: 32px;
+    height: 32px;
+    background: #969bab6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.footer-icon a:hover {
+    background: #E02C6D;
+}
+
+.footer-icon a:hover i {
+    color: #ffffff;
+}
+
+.copywrite p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 63px;
+}
+
+/* footer section */
