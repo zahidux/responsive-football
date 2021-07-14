@@ -1,0 +1,82 @@
+/* common css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.button {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: .30s ease;
+}
+
+.button i {
+    margin-left: 8px;
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #E02C6D;
+}
+
+header {
+    background-color: #2D25A0;
+    display: flex;
+    height: 677px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 0 156px;
+}
+
+.header-info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.header-img img {
+    width: 556.01px;
+    height: 438px;
+}
+
+/* player details */
+
+.players .player img {
+    width: 300px;
+    height: 200px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main {
+    display: flex;
+    margin: 0 180px;
+    justify-content: center;
+}
+
+.player-details {
+    margin: 70px 210px 0 180px;
+}
+
+.player {
+    width: 330px;
+    height: 459px;
+}
+
+.player h3 {
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+}
+
+.player p {
+    font-weight: 400;
+    color: #6C6C6C;
+}
