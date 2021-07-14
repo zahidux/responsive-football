@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        padding-top: 26px;
+        height: auto;
+    }
+
+    .btn {
+        margin-bottom: 50px;
+    }
+
+    .header-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .header-img img {
+        margin-bottom: 61px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-info h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player-details {
+        margin: 70px 0 0 0;
+    }
+
+    .champion {
+        width: 96%;
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+
+    .champion-team-images img {
+        margin-top: 50px;
+    }
+
+    .blog {
+        flex-direction: column;
+        margin: 50px 0 0 0;
+    }
+
+    .article-images {
+        width: 100%;
+    }
+
+    .article-images img {
+        width: 96%;
+    }
+
+    .best-player h2 {
+        font-size: 20px;
+    }
+
+    .best-player {
+        width: 83%;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .footer_logo img {
+        width: 240px;
+    }
+}
